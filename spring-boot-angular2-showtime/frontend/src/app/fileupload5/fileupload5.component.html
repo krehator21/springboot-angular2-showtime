@@ -9,9 +9,7 @@
 <div class="container">
 
     <div class="navbar navbar-default">
-        <div class="navbar-header">
-            <a class="navbar-brand" href>Angular2 File Upload</a>
-        </div>
+        <div class="navbar-header"><a class="navbar-brand" href>Angular2 File Upload</a></div>
     </div>
 
     <div class="row">
@@ -48,9 +46,9 @@
                         </div>
                     </td>
                     <td class="text-center">
-                        <span *ngIf="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
-                        <span *ngIf="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
-                        <span *ngIf="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                        <span *ngIf="item.isSuccess">A<i class="glyphicon glyphicon-ok"></i></span>
+                        <span *ngIf="item.isCancel">C<i class="glyphicon glyphicon-ban-circle"></i></span>
+                        <span *ngIf="item.isError">E<i class="glyphicon glyphicon-remove"></i></span>
                     </td>
                     <td nowrap>
                         <button type="button" class="btn btn-success btn-xs"
